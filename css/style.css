@@ -3,6 +3,7 @@
 :root{
     --green:#1933c9;
     --black:#444;
+    --red:rgb(247, 11, 11);
     --light-color:#777;
     --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
@@ -392,6 +393,11 @@ section:nth-child(even){
     font-size: 3rem;
 }
 
+.book .row form p{
+    color:var(--red);
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+}
 .book .row form .box{
     width: 100%;
     margin:.7rem 0;
